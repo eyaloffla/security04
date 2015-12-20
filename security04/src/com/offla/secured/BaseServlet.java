@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/Test/9bf6f8f5-9a3a-4fc9-a362-482a23aface5/devices")
+@WebServlet("/Test/30ee80fa-f254-4f7c-9d25-9a1811cf295f/devices")
 @ServletSecurity(@HttpConstraint(rolesAllowed={"TAIUserRole"}))
 public class BaseServlet extends HttpServlet {
 

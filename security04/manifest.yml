@@ -1,0 +1,6 @@
+---
+applications:
+- name: security04
+  memory: 512M
+  host: security04
+  domain: mybluemix.net
