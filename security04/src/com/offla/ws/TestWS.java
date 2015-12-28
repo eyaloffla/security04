@@ -9,7 +9,7 @@ import javax.ws.rs.Produces;
 
 import com.ibm.json.java.JSONObject;
 
-@Path("/")
+@Path("/test")
 public class TestWS {
 	
 	
@@ -21,7 +21,7 @@ public class TestWS {
 		
 		JSONObject returnJson = new JSONObject();
 		returnJson.put("Greeting ", "Hi I m right here");
-		returnJson.put("Date ", new Date().toString());
+		returnJson.put("Secured Area ", new Date().toString());
 		
 		return returnJson.toString();
 	}

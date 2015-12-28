@@ -22,7 +22,7 @@
 
 <servlet-mapping>
      <servlet-name>unique_servlet_name</servlet-name>
-     <url-pattern>/app/*</url-pattern>
+     <url-pattern>/rest/*</url-pattern>
 </servlet-mapping>
 	
 	

@@ -7,7 +7,7 @@ import javax.ws.rs.core.Application;
 
 
 
-@Path("/app") 
+//@Path("/rest") 
 public class CustomOAuthSampleApplication extends Application {
 	
 	@Override
